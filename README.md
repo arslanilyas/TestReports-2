@@ -23,3 +23,7 @@
 5. Add unit test of each feature.
 6. Adding of address through maps and proper searching of location instead of manually adding the address only.
 7. Add contact to favorite feature.
+
+<b>App Demo:</b>
+
+https://drive.google.com/file/d/1ZqElKN-uqU8G1X-BVBHNovkoY9hu9GAI/view?usp=sharing
