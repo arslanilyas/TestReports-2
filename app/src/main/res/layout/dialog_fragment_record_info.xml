@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_total_stats"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <include
+            android:id="@+id/users_action"
+            layout="@layout/layout_user_actions"/>
+
+        <include
+            android:id="@+id/user_number"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/user_name"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/company_name"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_title"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_address"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_city"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_email"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_region"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_postal_code"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_country"
+            layout="@layout/layout_user_info"/>
+        <include
+            android:id="@+id/contact_fax"
+            layout="@layout/layout_user_info"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorLightBlue"
+            android:text="@string/edit"
+            />
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorRed"
+            android:text="@string/delete"
+            />
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorSmokyBlack2"
+            android:text="@string/close"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

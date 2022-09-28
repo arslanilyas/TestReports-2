@@ -1,0 +1,19 @@
+<resources>
+
+
+
+    <style name="GeneralDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+
+
+
+    </resources>

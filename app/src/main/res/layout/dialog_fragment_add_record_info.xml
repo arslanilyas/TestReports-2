@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_total_stats"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_contact"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <include
+            android:id="@+id/contact_name"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_number"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_title"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/company_name"
+            layout="@layout/layout_add_user_info"/>
+
+        <include
+            android:id="@+id/contact_address"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_city"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_email"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_region"
+            layout="@layout/layout_add_user_info"/>
+
+
+        <include
+            android:id="@+id/contact_postal_code"
+            layout="@layout/layout_add_user_info"/>
+
+        <include
+            android:id="@+id/contact_country"
+            layout="@layout/layout_add_user_info"/>
+        <include
+            android:id="@+id/contact_fax"
+            layout="@layout/layout_add_user_info"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/save_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

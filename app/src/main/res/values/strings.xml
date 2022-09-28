@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+
+    <string name="contact_name">Name </string>
+    <string name="contact_number">Number </string>
+    <string name="company_name">Company Name </string>
+    <string name="contact_title">Contact Title </string>
+    <string name="contact_address">Contact Address </string>
+    <string name="contact_city">Contact City </string>
+    <string name="contact_email">Contact Email </string>
+    <string name="contact_postal_code">Contact PostalCode</string>
+    <string name="contact_country">Contact Country</string>
+    <string name="contact_fax">Contact Fax</string>
+    <string name="contact_region">Contact Region</string>
+
+
+
+    <string name="save">Save</string>
+    <string name="user_info">Info</string>
+
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+
+
+
+    <string name="new_contact">New Contact</string>
+    <string name="contact_info">Contact Info</string>
+
+
+</resources>
